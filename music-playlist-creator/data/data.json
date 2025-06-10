@@ -1,0 +1,35 @@
+
+
+{
+    
+
+    "playlists":[    {
+        "playlistID":1,
+        "playlist_name":"Emo Music",
+        "playlist_author":"Latifah Damianos",
+        "playlist_art":"N/A",
+        "songs":[
+                        {
+                "title":"",
+                "author":"",
+                "album":""
+            }
+        ]
+    },
+    {
+        "playlistID":2,
+        "playlist_name":"",
+        "playlist_author":"",
+        "playlist_art":"",
+        "songs":[
+            {
+                "title":"",
+                "author":"",
+                "album":""
+            }
+        ]
+
+    }
+
+    ]
+}
