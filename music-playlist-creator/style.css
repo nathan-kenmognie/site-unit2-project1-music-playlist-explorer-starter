@@ -55,16 +55,16 @@ header nav ul {
     color: rgb(211, 14, 14);
     background-color: transparent;
     border: none;
-    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
-    width: 5px;
-    height: 5px;
+    font-size: 24px; /* Make the heart bigger and match the count */
     display: flex;
     align-items: center;
-    justify-content: right;
-    margin-top: 10px;
+    justify-content: center;
+    margin-top: 0;
+    padding: 0 8px;
+    width: auto;   /* Remove fixed width */
+    height: auto;  /* Remove fixed height */
 }
 
 
@@ -97,20 +97,12 @@ justify-content: center;
     text-align: left;
     transition: transform 0.2s ease-in-out;
 }
-.playlist img {
-    height: auto;
-    border-radius: 8px;
-    max-width: 250px;
-    width: 100%;
-    
-}
+
 
 .playlist-image {
-    width: 100%;
-    height: auto;
     border-radius: 8px;
-    margin-bottom: 10px;
-    margin-left: 30px;
+    height: 250px;
+    width: 250px;
 }
 
 .playlist-details {
@@ -180,10 +172,19 @@ justify-content: center;
     transition: background-color 0.2s ease-in-out;
 }
 
+/* Add to style.css */
+.like-row {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between button and count */
+  margin-top: 5px; /* space above the like button */
+}
 
 
-.playlist-header .playlist-image{
-    width: 200px; /* Optional: limit image size */
+
+.playlist-header img{
+    width: 250px; /* Optional: limit image size */
+    height: 250px; /* Optional: limit image size */
     border-radius: 8px;
     display: block;
     margin-bottom: 0;
@@ -234,6 +235,10 @@ dialog[open] {
 
 }
 
+main {
+  flex: 1 0 auto; /* This makes main take up all available space */
+}
+
 
 .nav {
     display: flex;
@@ -254,11 +259,11 @@ audio {
 }
 
 footer {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  flex-shrink: 0;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
 }

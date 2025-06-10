@@ -3,33 +3,385 @@
 {
     
 
-    "playlists":[    {
+    "playlists":[    
+        {
         "playlistID":1,
-        "playlist_name":"Emo Music",
-        "playlist_author":"Latifah Damianos",
-        "playlist_art":"N/A",
+        "playlist_name":"The Finals",
+        "playlist_author":"Arshia",
+        "playlist_art":"assets/img/the-finals.jpeg",
+        "description":"A playlist to celebrate the end of exams and the start of summer!",
+        "likes":5,
         "songs":[
                         {
-                "title":"",
-                "author":"",
-                "album":""
+                "title":"Throw It Down",
+                "author":"Dominique Young Unique",
+                "album":"The Finals Soundtrack"
+                
+            }, 
+            {
+                "title":"The Final Countdown",
+                "author":"Europe",
+                "album":"The Final Countdown"
+            },
+            {
+                "title":"Finale",
+                "author":"Madeon",
+                "album":"Adventure"
+            },
+            {
+                "title":"Final Song",
+                "author":"MØ",
+                "album":"Final Song"
+            },
+            {
+                "title":"Final Goodbye",
+                "author":"Khalid",
+                "album":"Free Spirit"
+            },
+            {
+                "title":"Final Hour",
+                "author":"Kanye West",
+                "album":"The College Dropout"
+            },
+            {
+                "title":"Finale (feat. The Roots)",
+                "author":"John Legend",
+                "album":"Get Lifted"
+            },
+            {
+                "title":"Final Destination",
+                "author":"The Prodigy",
+                "album":"Invaders Must Die"
             }
         ]
     },
     {
         "playlistID":2,
-        "playlist_name":"",
-        "playlist_author":"",
-        "playlist_art":"",
+        "playlist_name":"Sultry Grooves",
+        "playlist_author":"Isabella",
+        "playlist_art":"assets/img/sultry-groove.jpeg",
+        "description":"A collection of smooth and sultry tracks to set the mood.",
+        "likes":8,
         "songs":[
             {
-                "title":"",
-                "author":"",
-                "album":""
+                "title":"Wandering Star",
+                "author":"Portishead",
+                "album":"Dummy"
+            },
+            {
+                "title":"Smooth Operator",
+                "author":"Sade",
+                "album":"Diamond Life"
+            },
+            {
+                "title":"Come Away With Me",
+                "author":"Norah Jones",
+                "album":"Come Away With Me"
+            },
+            {
+                "title":"Criminal",
+                "author":"Fiona Apple",
+                "album":"Tidal"
+            },
+            {
+                "title":"Teardrop",
+                "author":"Massive Attack",
+                "album":"Mezzanine"
+            },
+            {
+                "title":"Breathe Me",
+                "author":"Sia",
+                "album":"Colour the Small One"
+            },
+            {
+                "title":"Unfinished Sympathy",
+                "author":"Massive Attack",
+                "album":"Blue Lines"
+            },
+            {
+                "title":"Black Coffee",
+                "author":"Ella Fitzgerald",
+                "album":"Ella Fitzgerald Sings the George and Ira Gershwin Songbook"
             }
         ]
 
-    }
+
+    },
+    {
+        "playlistID":3,
+        "playlist_name":"Epic Anthems",
+        "playlist_author":"Liam",
+        "playlist_art":"assets/img/epic-anthems.jpeg",
+        "description":"An epic collection of anthems to pump you up and get you moving.",
+        "likes":12,
+        "songs":[
+            {
+                "title":"Eye of the Tiger",
+                "author":"Survivor",
+                "album":"Rocky III Soundtrack"
+            },
+            {
+                "title":"We Will Rock You",
+                "author":"Queen",
+                "album":"News of the World"
+            },
+            {
+                "title":"Lose Yourself",
+                "author":"Eminem",
+                "album":"8 Mile Soundtrack"
+            },
+            {
+                "title":"Stronger",
+                "author":"Kanye West",
+                "album":"Graduation"
+            },
+            {
+                "title":"Can't Hold Us",
+                "author":"Macklemore & Ryan Lewis",
+                "album":"The Heist"
+            },
+            {
+                "title":"Thunderstruck",
+                "author":"AC/DC",
+                "album":"The Razors Edge"
+            },
+            {
+                "title":"Hall of Fame (feat. will.i.am)",
+                "author":"The Script",
+                "album":"#3"
+            },
+            {
+                "title":"Uptown Funk (feat. Bruno Mars)",
+                "author":"Mark Ronson",
+                "album":"Uptown Special"
+            }
+        ]
+    },
+    {
+        "playlistID":2,
+        "playlist_name":"Ambient Chill",
+        "playlist_author":"iHeartRadio",
+        "playlist_art":"assets/img/ambient-chill.webp",
+        "description":"A collextion of Ambient and Chill tracks to help you relax and unwind.",
+        "likes":10,
+        "songs":[
+            {
+                "title":"Weightless",
+                "author":"Marconi Union",
+                "album":"Weightless"
+            },
+            {
+                "title":"Sunset Lover",
+                "author":"Petit Biscuit",
+                "album":"Petit Biscuit"
+            },
+            {
+                "title":"Cold Little Heart",
+                "author":"Michael Kiwanuka",
+                "album":"Love & Hate"
+            },
+            {
+                "title":"Night Owl",
+                "author":"Galimatias",
+                "album":"Young Desire"
+            },
+            {
+                "title":"Intro",
+                "author":"The xx",
+                "album":"xx"
+            },
+            {
+                "title":"Bloom",
+                "author":"Odesza",
+                "album":"In Return"
+            },
+            {
+                "title":"We Can Fly",
+                "author":"Jean-Michel Jarre",
+                "album":"Electronica 1: The Time Machine"
+            },
+            {
+                "title":"A Moment Apart",
+                "author":"Odesza",
+                "album":"A Moment Apart"
+            }
+        ]
+    },
+    {
+        "playlistID":5,
+        "playlist_name":"Retro Vibes",
+        "playlist_author":"Olivia",
+        "playlist_art":"assets/img/retro-vibes.png",
+        "description":"A nostalgic trip through the best of the 80s and 90s.",
+        "likes":15,
+        "songs":[
+            {
+                "title":"Take On Me",
+                "author":"a-ha",
+                "album":"Hunting High and Low"
+            },
+            {
+                "title":"Billie Jean",
+                "author":"Michael Jackson",
+                "album":"Thriller"
+            },
+            {
+                "title":"Sweet Child o' Mine",
+                "author":"Guns N' Roses",
+                "album":"Appetite for Destruction"
+            },
+            {
+                "title":"Like a Prayer",
+                "author":"Madonna",
+                "album":"Like a Prayer"
+            },
+            {
+                "title":"Smells Like Teen Spirit",
+                "author":"Nirvana",
+                "album":"Nevermind"
+            }
+            
+
+        ]
+    },
+    {
+        "playlistID":6,
+        "playlist_name":"Chill Beats",
+        "playlist_author":"Noah",
+        "playlist_art":"assets/img/chill-beats.jpeg",
+        "description":"A collection of chill beats to help you relax and unwind.",
+        "likes":20,
+        "songs":[
+            {
+                "title":"Weightless",
+                "author":"Marconi Union",
+                "album":"Weightless"
+            },
+            {
+                "title":"Sunset Lover",
+                "author":"Petit Biscuit",
+                "album":"Petit Biscuit"
+            },
+            {
+                "title":"Cold Little Heart",
+                "author":"Michael Kiwanuka",
+                "album":"Love & Hate"
+            },
+            {
+                "title":"Night Owl",
+                "author":"Galimatias",
+                "album":"Young Desire"
+            },
+            {
+                "title":"Intro",
+                "author":"The xx",
+                "album":"xx"
+            },
+            {
+                "title":"Bloom",
+                "author":"Odesza",
+                "album":"In Return"
+            },
+            {
+                "title":"We Can Fly",
+                "author":"Jean-Michel Jarre",
+                "album":"Electronica 1: The Time Machine"
+            },
+            {
+                "title":"A Moment Apart",
+                "author":"Odesza",
+                "album":"A Moment Apart"
+            }
+        ]
+    },
+    {
+        "playlistID":7,
+        "playlist_name":"Workout Hits",
+        "playlist_author":"Emma",
+        "playlist_art":"assets/img/workout-hits.jpeg",
+        "description":"A high-energy playlist to keep you motivated during your workouts.",
+        "likes":18,
+        "songs":[
+            {
+                "title":"Stronger",
+                "author":"Kanye West",
+                "album":"Graduation"
+            },
+            {
+                "title":"Can't Stop the Feeling!",
+                "author":"Justin Timberlake",
+                "album":"Trolls Soundtrack"
+            },
+            {
+                "title":"Titanium (feat. Sia)",
+                "author":"David Guetta",
+                "album":"Nothing but the Beat"
+            },
+            {
+                "title":"Uptown Funk (feat. Bruno Mars)",
+                "author":"Mark Ronson",
+                "album":"Uptown Special"
+            },
+            {
+                "title":"Shake It Off",
+                "author":"Taylor Swift",
+                "album":"1989"
+            }
+
 
     ]
+    },
+    {
+        "playlistID":8,
+        "playlist_name":"Indie Discoveries",
+        "playlist_author":"Sophia",
+        "playlist_art":"assets/img/indie-discoveries.jpeg",
+        "description":"A collection of the best indie tracks from up-and-coming artists.",
+        "likes":22,
+        "songs":[
+            {
+                "title":"Electric Feel",
+                "author":"MGMT",
+                "album":"Oracular Spectacular"
+            },
+            {
+                "title":"Dog Days Are Over",
+                "author":"Florence + The Machine",
+                "album":"Lungs"
+            },
+            {
+                "title":"Take Me Out",
+                "author":"Franz Ferdinand",
+                "album":"Franz Ferdinand"
+            },
+            {
+                "title":"Pumped Up Kicks",
+                "author":"Foster the People",
+                "album":"Torches"
+            },
+            {
+                "title":"Young Folks",
+                "author":"Peter Bjorn and John",
+                "album":"Writer's Block"
+            },
+            {
+                "title":"Electric Love",
+                "author":"BØRNS",
+                "album":"Dopamine"
+            },
+            {
+                "title":"Home",
+                "author":"Edward Sharpe & The Magnetic Zeros",
+                "album":"Up from Below"
+            },
+            {
+                "title":"Sleepyhead",
+                "author":"Passion Pit",
+                "album":"Manners"
+            }
+        ]
+    }
+    ]
 }
+
+    
