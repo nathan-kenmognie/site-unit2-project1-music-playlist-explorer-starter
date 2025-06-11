@@ -51,14 +51,18 @@ jsonFetch.then(jsonData => {jsonFunction(jsonData)});
 
 const playlistCards = document.getElementById('playlist-cards');
 
+
 let jsonFunction = (jsonData) => {
   playlistCards.innerHTML = ""; // Clear any existing cards
 
-  jsonData.playlists.forEach(playlist => {
+
+
+
+  jsonData.playlists.forEach((playlist,idx) => {
     // Build songs HTML for the modal
     const songsHTML = playlist.songs.map(song => `
       <article>
-        <img src="assets/img/song.png" alt="Song Image">
+        <img src=${song.cover || "Song Cover"} alt="Song Image">
         <div class="description">
           <h4>${song.title || "Song Title"}</h4>
           <p>${song.author || "Artist Name"}</p>
@@ -73,7 +77,7 @@ let jsonFunction = (jsonData) => {
 
     // Build the playlist card HTML
     const cardHTML = `
-      <article class="playlist">
+      <article class="playlist  data-playlist-idx="${idx}">
         <img src="${playlist.playlist_art || 'assets/img/playlist.png'}" class="playlist-image" alt="Playlist Image">
         <h2>${playlist.playlist_name || "Playlist"}</h2>
         <span class="playlist-author">${playlist.playlist_author || "Author Name"}</span>
@@ -85,11 +89,14 @@ let jsonFunction = (jsonData) => {
           <div class="playlist-details">
             <button class="closeBtn" aria-label="Close">&times;</button>
             <div class="playlist-header">
+            
               <img src="${playlist.playlist_art || 'assets/img/playlist.png'}" alt="Playlist Image" class="playlist-image">
               <div class="playlist-info">
                 <h2>${playlist.playlist_name || "Playlist Title"}</h2>
                 <h3>${playlist.playlist_author || "Creator Name"}</h3>
                 <p>${playlist.description || "Description"}</p>
+                <button class="shuffleBtn" aria-label="Shuffle Playlist">Shuffle</button>
+
               </div>
             </div>
           </div>
@@ -112,6 +119,7 @@ function attachPlaylistListeners() {
     const dialog = playlist.querySelector('dialog');
     const likeBtn = playlist.querySelector('.likeBtn');
     const likeCount = playlist.querySelector('.like-count');
+    const shuffleBtn = playlist.querySelector('.shuffleBtn');
 
     if (likeBtn && likeCount) {
       likeBtn.addEventListener('click', function(e) {
@@ -148,6 +156,18 @@ function attachPlaylistListeners() {
           dialog.close();
         }
       });
+
+      // Shuffle button functionality
+      if (shuffleBtn) {
+        shuffleBtn.addEventListener('click', function(e) {
+          e.stopPropagation();
+          const songs = Array.from(dialog.querySelectorAll('.playlist-songs article'));
+          const shuffledSongs = songs.sort(() => Math.random() - 0.5);
+          const songsContainer = dialog.querySelector('.playlist-songs');
+          songsContainer.innerHTML = ''; // Clear existing songs
+          shuffledSongs.forEach(song => songsContainer.appendChild(song)); // Append shuffled songs
+        });
+      }
     }
   });
 }

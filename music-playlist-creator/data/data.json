@@ -15,43 +15,53 @@
                         {
                 "title":"Throw It Down",
                 "author":"Dominique Young Unique",
-                "album":"The Finals Soundtrack"
+                "album":"The Finals Soundtrack",
+                "cover":"assets/img/songs/throw-it-down.jpeg"
                 
             }, 
             {
                 "title":"The Final Countdown",
                 "author":"Europe",
-                "album":"The Final Countdown"
+                "album":"The Final Countdown",
+                "cover":"assets/img/songs/eye-of-the-tiger.jpeg"
             },
             {
                 "title":"Finale",
                 "author":"Madeon",
-                "album":"Adventure"
+                "album":"Adventure",
+                "cover": "assets/img/songs/finale.jpeg"
             },
             {
                 "title":"Final Song",
                 "author":"MØ",
-                "album":"Final Song"
+                "album":"Final Song",
+                "cover":"assets/img/songs/final-song.jpeg"
             },
             {
                 "title":"Final Goodbye",
                 "author":"Khalid",
-                "album":"Free Spirit"
+                "album":"Free Spirit",
+                "cover":"assets/img/songs/final-goodbye.jpeg"
+
             },
             {
                 "title":"Final Hour",
                 "author":"Kanye West",
-                "album":"The College Dropout"
+                "album":"The College Dropout",
+                "cover":"assets/img/songs/final-hour.jpeg"
             },
             {
                 "title":"Finale (feat. The Roots)",
                 "author":"John Legend",
-                "album":"Get Lifted"
+                "album":"Get Lifted",
+                "cover":"assets/img/songs/finale-john.jpeg"
+
             },
             {
                 "title":"Final Destination",
                 "author":"The Prodigy",
-                "album":"Invaders Must Die"
+                "album":"Invaders Must Die",
+                "cover":"assets/img/songs/final-destination.jpeg"
             }
         ]
     },
@@ -66,42 +76,53 @@
             {
                 "title":"Wandering Star",
                 "author":"Portishead",
-                "album":"Dummy"
+                "album":"Dummy",
+                "cover":"assets/img/songs/wandering-star.jpeg"
+
             },
             {
                 "title":"Smooth Operator",
                 "author":"Sade",
-                "album":"Diamond Life"
+                "album":"Diamond Life",
+                "cover":"assets/img/songs/smooth-operator.jpeg"
             },
             {
                 "title":"Come Away With Me",
                 "author":"Norah Jones",
-                "album":"Come Away With Me"
+                "album":"Come Away With Me",
+                "cover":"assets/img/songs/come-away-with-me.jpeg"
             },
             {
                 "title":"Criminal",
                 "author":"Fiona Apple",
-                "album":"Tidal"
+                "album":"Tidal",
+                "cover":"assets/img/songs/criminal.jpeg"
+
             },
             {
                 "title":"Teardrop",
                 "author":"Massive Attack",
-                "album":"Mezzanine"
+                "album":"Mezzanine",
+                "cover":"assets/img/songs/teardrop.jpeg"
             },
             {
                 "title":"Breathe Me",
                 "author":"Sia",
-                "album":"Colour the Small One"
+                "album":"Colour the Small One",
+                "cover":"assets/img/songs/breathe-me.jpeg"
+
             },
             {
                 "title":"Unfinished Sympathy",
                 "author":"Massive Attack",
-                "album":"Blue Lines"
+                "album":"Blue Lines",
+                "cover":"assets/img/songs/unfinished-sympathy.jpeg"
             },
             {
                 "title":"Black Coffee",
                 "author":"Ella Fitzgerald",
-                "album":"Ella Fitzgerald Sings the George and Ira Gershwin Songbook"
+                "album":"Ella Fitzgerald Sings the George and Ira Gershwin Songbook",
+                "cover":"assets/img/songs/black-coffee.jpeg"
             }
         ]
 
@@ -118,47 +139,56 @@
             {
                 "title":"Eye of the Tiger",
                 "author":"Survivor",
-                "album":"Rocky III Soundtrack"
+                "album":"Rocky III Soundtrack",
+                "cover":"assets/img/songs/eye-of-the-tiger.jpeg"
             },
             {
                 "title":"We Will Rock You",
                 "author":"Queen",
-                "album":"News of the World"
+                "album":"News of the World",
+                "cover":"assets/img/songs/we-will-rock-you.jpeg"
             },
             {
                 "title":"Lose Yourself",
                 "author":"Eminem",
-                "album":"8 Mile Soundtrack"
+                "album":"8 Mile Soundtrack",
+                "cover":"assets/img/songs/lose-yourself.jpeg"
             },
             {
                 "title":"Stronger",
                 "author":"Kanye West",
-                "album":"Graduation"
+                "album":"Graduation",
+                "cover":"assets/img/songs/stronger.jpeg"
             },
             {
                 "title":"Can't Hold Us",
                 "author":"Macklemore & Ryan Lewis",
-                "album":"The Heist"
+                "album":"The Heist",
+                "cover":"assets/img/songs/cant-hold-us.jpeg"
             },
             {
                 "title":"Thunderstruck",
                 "author":"AC/DC",
-                "album":"The Razors Edge"
+                "album":"The Razors Edge",
+                "cover":"assets/img/songs/thunderstruck.jpeg"
             },
             {
                 "title":"Hall of Fame (feat. will.i.am)",
                 "author":"The Script",
-                "album":"#3"
+                "album":"#3",
+                "cover":"assets/img/songs/hall-of-fame.jpeg"
+
             },
             {
                 "title":"Uptown Funk (feat. Bruno Mars)",
                 "author":"Mark Ronson",
-                "album":"Uptown Special"
+                "album":"Uptown Special",
+                "cover":"assets/img/songs/uptown-funk.png"
             }
         ]
     },
     {
-        "playlistID":2,
+        "playlistID":4,
         "playlist_name":"Ambient Chill",
         "playlist_author":"iHeartRadio",
         "playlist_art":"assets/img/ambient-chill.webp",
@@ -168,42 +198,50 @@
             {
                 "title":"Weightless",
                 "author":"Marconi Union",
-                "album":"Weightless"
+                "album":"Weightless",
+                "cover":"assets/img/songs/weightless.jpeg"
             },
             {
-                "title":"Sunset Lover",
-                "author":"Petit Biscuit",
-                "album":"Petit Biscuit"
+                "title":"Petit Biscuit",
+                "author":"Sunset Lover",
+                "album":"Petit Biscuit",
+                "cover":"assets/img/songs/petit-biscuit.jpeg"
             },
             {
                 "title":"Cold Little Heart",
                 "author":"Michael Kiwanuka",
-                "album":"Love & Hate"
+                "album":"Love & Hate",
+                "cover":"assets/img/songs/cold-little-heart.jpeg"
             },
             {
                 "title":"Night Owl",
                 "author":"Galimatias",
-                "album":"Young Desire"
+                "album":"Young Desire",
+                "cover":"assets/img/songs/night-owl.jpeg"
             },
             {
                 "title":"Intro",
                 "author":"The xx",
-                "album":"xx"
+                "album":"xx",
+                "cover":"assets/img/songs/the-xx.png"
             },
             {
                 "title":"Bloom",
                 "author":"Odesza",
-                "album":"In Return"
+                "album":"In Return",
+                "cover":"assets/img/songs/bloom.jpeg"
             },
             {
                 "title":"We Can Fly",
                 "author":"Jean-Michel Jarre",
-                "album":"Electronica 1: The Time Machine"
+                "album":"Electronica 1: The Time Machine",
+                "cover":"assets/img/songs/we-can-fly.jpeg"
             },
             {
                 "title":"A Moment Apart",
                 "author":"Odesza",
-                "album":"A Moment Apart"
+                "album":"A Moment Apart",
+                "cover":"assets/img/songs/a-moment-apart.jpeg"
             }
         ]
     },
@@ -218,27 +256,32 @@
             {
                 "title":"Take On Me",
                 "author":"a-ha",
-                "album":"Hunting High and Low"
+                "album":"Hunting High and Low",
+                "cover":"assets/img/songs/take-on-me.jpeg"
             },
             {
                 "title":"Billie Jean",
                 "author":"Michael Jackson",
-                "album":"Thriller"
+                "album":"Thriller",
+                "cover":"assets/img/songs/billie-jean.jpeg"
             },
             {
                 "title":"Sweet Child o' Mine",
                 "author":"Guns N' Roses",
-                "album":"Appetite for Destruction"
+                "album":"Appetite for Destruction",
+                "cover":"assets/img/songs/sweet-child-o-mine.jpg"
             },
             {
                 "title":"Like a Prayer",
                 "author":"Madonna",
-                "album":"Like a Prayer"
+                "album":"Like a Prayer",
+                "cover":"assets/img/songs/like-a-prayer.jpeg"
             },
             {
                 "title":"Smells Like Teen Spirit",
                 "author":"Nirvana",
-                "album":"Nevermind"
+                "album":"Nevermind",
+                "cover":"assets/img/songs/smells-like-teen-spirit.jpeg"
             }
             
 
@@ -255,42 +298,50 @@
             {
                 "title":"Weightless",
                 "author":"Marconi Union",
-                "album":"Weightless"
+                "album":"Weightless",
+                "cover":"assets/img/songs/weightless.jpeg"
             },
             {
                 "title":"Sunset Lover",
                 "author":"Petit Biscuit",
-                "album":"Petit Biscuit"
+                "album":"Petit Biscuit",
+                "cover":"assets/img/songs/petit-biscuit.jpeg"
             },
             {
                 "title":"Cold Little Heart",
                 "author":"Michael Kiwanuka",
-                "album":"Love & Hate"
+                "album":"Love & Hate",
+                "cover":"assets/img/songs/cold-little-heart.jpeg"
             },
             {
                 "title":"Night Owl",
                 "author":"Galimatias",
-                "album":"Young Desire"
+                "album":"Young Desire",
+                "cover":"assets/img/songs/night-owl.jpeg"
             },
             {
                 "title":"Intro",
                 "author":"The xx",
-                "album":"xx"
+                "album":"xx",
+                "cover":"assets/img/songs/the-xx.png"
             },
             {
                 "title":"Bloom",
                 "author":"Odesza",
-                "album":"In Return"
+                "album":"In Return",
+                "cover":"assets/img/songs/bloom.jpeg"
             },
             {
                 "title":"We Can Fly",
                 "author":"Jean-Michel Jarre",
-                "album":"Electronica 1: The Time Machine"
+                "album":"Electronica 1: The Time Machine",
+                "cover":"assets/img/songs/we-can-fly.jpeg"
             },
             {
                 "title":"A Moment Apart",
                 "author":"Odesza",
-                "album":"A Moment Apart"
+                "album":"A Moment Apart",
+                "cover":"assets/img/songs/a-moment-apart.jpeg"
             }
         ]
     },
@@ -305,27 +356,33 @@
             {
                 "title":"Stronger",
                 "author":"Kanye West",
-                "album":"Graduation"
+                "album":"Graduation",
+                "cover":"assets/img/songs/stronger.jpeg"
             },
             {
                 "title":"Can't Stop the Feeling!",
                 "author":"Justin Timberlake",
-                "album":"Trolls Soundtrack"
+                "album":"Trolls Soundtrack",
+                "cover":"assets/img/songs/cant-stop-the-feeling.jpeg"
             },
             {
                 "title":"Titanium (feat. Sia)",
                 "author":"David Guetta",
-                "album":"Nothing but the Beat"
+                "album":"Nothing but the Beat",
+                "cover":"assets/img/songs/titanium.jpg"
+
             },
             {
                 "title":"Uptown Funk (feat. Bruno Mars)",
                 "author":"Mark Ronson",
-                "album":"Uptown Special"
+                "album":"Uptown Special",
+                "cover":"assets/img/songs/uptown-funk.png"
             },
             {
                 "title":"Shake It Off",
                 "author":"Taylor Swift",
-                "album":"1989"
+                "album":"1989",
+                "cover":"assets/img/songs/shake-it-off.jpeg"
             }
 
 
@@ -342,42 +399,50 @@
             {
                 "title":"Electric Feel",
                 "author":"MGMT",
-                "album":"Oracular Spectacular"
+                "album":"Oracular Spectacular",
+                "cover":"assets/img/songs/electric-feel.jpeg"
             },
             {
                 "title":"Dog Days Are Over",
                 "author":"Florence + The Machine",
-                "album":"Lungs"
+                "album":"Lungs",
+                "cover":"assets/img/songs/dog-days-are-over.jpeg"
             },
             {
                 "title":"Take Me Out",
                 "author":"Franz Ferdinand",
-                "album":"Franz Ferdinand"
+                "album":"Franz Ferdinand",
+                "cover":"assets/img/songs/take-me-out.jpeg"
             },
             {
                 "title":"Pumped Up Kicks",
                 "author":"Foster the People",
-                "album":"Torches"
+                "album":"Torches",
+                "cover":"assets/img/songs/pumped-up-kicks.jpeg"
             },
             {
                 "title":"Young Folks",
                 "author":"Peter Bjorn and John",
-                "album":"Writer's Block"
+                "album":"Writer's Block",
+                "cover":"assets/img/songs/young-folks.jpeg"
             },
             {
                 "title":"Electric Love",
                 "author":"BØRNS",
-                "album":"Dopamine"
+                "album":"Dopamine",
+                "cover":"assets/img/songs/electric-love.jpeg"
             },
             {
                 "title":"Home",
                 "author":"Edward Sharpe & The Magnetic Zeros",
-                "album":"Up from Below"
+                "album":"Up from Below",
+                "cover":"assets/img/songs/home.jpeg"
             },
             {
                 "title":"Sleepyhead",
                 "author":"Passion Pit",
-                "album":"Manners"
+                "album":"Manners",
+                "cover":"assets/img/songs/sleepyhead.jpeg"
             }
         ]
     }

@@ -27,31 +27,31 @@
 
 
 
-    <main> 
         <!-- Your main content here -->
 
-        <div id="playlist-cards">
-        <article class="playlist" id="main">
-            <img src="assets/img/playlist.png" alt="Playlist Image">
-            <h2>Playlist 1</h2>
-            <span class="playlist-author">Author Name</span>
-        <dialog>
-            <p>This is a popup dialog!</p>
-            <button class="closeBtn">&times</button>
-        </dialog>
-        </article>
+<main> 
+    <article id="featured-playlist">
+        <section id="featured-playlist-card">
+            <img id="featured-playlist-img" src="assets/img/playlist.png" alt="Featured Playlist Cover">
+            <h3 id="featured-playlist-title">Playlist Title</h3>
+            <p id="featured-playlist-author"></p>
+            <p id="featured-playlist-description"></p>
+        </section>
+        <section id="featured-song-cards">
+            <ul id="featured-song-list">
+                <!-- Songs will be injected here -->
+            </ul>
+        </section>
+    </article>
+</main>
 
-        </div>
+
 
         
-
-        
-    </main>
 
     <footer>
         <!-- Your footer content here -->
     </footer>
-    <script src="data/data.js"></script>
-    <!---  <script src="script.js"></script>
+    <script src="data/featured.js"></script>
 </body>
 </html>
