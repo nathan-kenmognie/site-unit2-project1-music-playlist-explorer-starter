@@ -13,65 +13,65 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD
 #### CORE FEATURES
 
 - [X] **Display Playlists**
-  - [ ] Dynamically render playlists on the homepage using JavaScript.
-    - [ ] Playlists should be shown in grid view.
-    - [ ] Playlist images should be reasonably sized (at least 6 playlists on your laptop when full screen; large enough that the playlist components detailed in the next feature are legible).
-  - [ ] Fetch data from a provided Javascript file and use it to create interactive playlist tiles.
+  - [X] Dynamically render playlists on the homepage using JavaScript.
+    - [X] Playlists should be shown in grid view.
+    - [X] Playlist images should be reasonably sized (at least 6 playlists on your laptop when full screen; large enough that the playlist components detailed in the next feature are legible).
+  - [X] Fetch data from a provided Javascript file and use it to create interactive playlist tiles.
 
 - [X] **Playlist Components**
-  - [ ] Each tile should display the playlist's:
-    - [ ] Cover image
-    - [ ] Name
-    - [ ] Author
-    - [ ] Like count
+  - [X] Each tile should display the playlist's:
+    - [X] Cover image
+    - [X] Name
+    - [X] Author
+    - [X] Like count
 
 - [X] **Playlist Details**
-  - [ ] Create a modal pop-up view that displays detailed information about a playlist when a user clicks on a playlist tile.
-  - [ ] The modal should show the playlist's:
-    - [ ] Cover image
-    - [ ] Name
-    - [ ] Author
-    - [ ] List of songs, including each song's:
-      - [ ] Title
-      - [ ] Artist
-      - [ ] Duration
-  - [ ] The modal itself should:
-    - [ ] Not occupy the entire screen.
-    - [ ] Have a shadow to show that it is a pop-up.
-    - [ ] Appear floating on the screen.
-    - [ ] The backdrop should appear darker or in a different shade.
+  - [X] Create a modal pop-up view that displays detailed information about a playlist when a user clicks on a playlist tile.
+  - [X] The modal should show the playlist's:
+    - [X] Cover image
+    - [X] Name
+    - [X] Author
+    - [X] List of songs, including each song's:
+      - [X] Title
+      - [X] Artist
+      - [X] Duration
+  - [X] The modal itself should:
+    - [X] Not occupy the entire screen.
+    - [X] Have a shadow to show that it is a pop-up.
+    - [X] Appear floating on the screen.
+    - [X] The backdrop should appear darker or in a different shade.
 
 - [X] **Like Playlists**
-  - [ ] Implement functionality to allow users to like playlists by clicking a heart icon on each playlist tile.
-  - [ ] When the heart icon is clicked:
-    - [ ] If previously unliked:
-      - [ ] The like count on the playlist tile should increase by 1.
-      - [ ] There should be visual feedback (such as the heart turning a different color) to show that the playlist has been liked by the user.
-    - [ ] If previously liked:
-      - [ ] The like count on the playlist tile should decrease by 1.
-      - [ ] There should be visual feedback (such as the heart turning a different color) to show that the playlist has been unliked by the user.
+  - [X] Implement functionality to allow users to like playlists by clicking a heart icon on each playlist tile.
+  - [X] When the heart icon is clicked:
+    - [X] If previously unliked:
+      - [X] The like count on the playlist tile should increase by 1.
+      - [X] There should be visual feedback (such as the heart turning a different color) to show that the playlist has been liked by the user.
+    - [X] If previously liked:
+      - [X] The like count on the playlist tile should decrease by 1.
+      - [X] There should be visual feedback (such as the heart turning a different color) to show that the playlist has been unliked by the user.
     - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please film yourself liking and unliking:
       - [ ] a playlist with a like count of 0
       - [ ] a playlist with a non-zero like count
 
 - [X] **Shuffle Songs**
-  - [ ] Enable users to shuffle the songs within a playlist using a shuffle button in the playlist's detail modal.
-  - [ ] When the shuffle button is clicked, the playlist's songs should display in a different order.
-  - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please show yourself shuffling the same playlist more than once. 
+  - [X] Enable users to shuffle the songs within a playlist using a shuffle button in the playlist's detail modal.
+  - [X] When the shuffle button is clicked, the playlist's songs should display in a different order.
+  - [X] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please show yourself shuffling the same playlist more than once. 
   
 - [X] **Featured Page**
-  - [ ] Application includes a dedicated page that randomly selects and displays a playlist, showing the playlist’s:
-    - [ ] Playlist Image
-    - [ ] Playlist Name
-    - [ ] List of songs, including each song's:
-      - [ ] Title
-      - [ ] Artist
-      - [ ] Duration
-  - [ ] When the page is refreshed or reloaded, a new random playlist is displayed
+  - [X] Application includes a dedicated page that randomly selects and displays a playlist, showing the playlist’s:
+    - [X] Playlist Image
+    - [X] Playlist Name
+    - [X] List of songs, including each song's:
+      - [X] Title
+      - [X] Artist
+      - [X] Duration
+  - [X] When the page is refreshed or reloaded, a new random playlist is displayed
     - For example, navigating to the all playlists page and then back to the featured playlist page should result in a new random playlist being displayed
     - Note that because your algorithm will not be truly random, it is possible that the same playlist will feature twice in a row. 
-    - [ ] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please show yourself refreshing the featured page more than once. 
-  - [ ] Application includes a navigation bar or some other mechanism such that users can navigate to the page with all playlists from the featured page and vice versa without using the browser's back and forward buttons. 
+    - [X] **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS:** In addition to showcasing the above features, for ease of grading, please show yourself refreshing the featured page more than once. 
+  - [X] Application includes a navigation bar or some other mechanism such that users can navigate to the page with all playlists from the featured page and vice versa without using the browser's back and forward buttons. 
 
 #### STRETCH FEATURES
 
@@ -132,28 +132,41 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. Ensure your walkthrough showcases the presence and/or functionality of all features you implemented above (check them off as you film!). Pay attention to any **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS** checkboxes listed above to ensure graders see the full functionality of your website! (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+<div>
+    <a href="https://www.loom.com/share/59b39f161d3045a4b676168d4115824b">
+      <p>Loom Message - 11 June 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/59b39f161d3045a4b676168d4115824b">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/59b39f161d3045a4b676168d4115824b-44ab111a29252e8f-full-play.gif">
+    </a>
+  </div>
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+** Yes, the labs helped with many of the core concepts I used in this project. For example, handling event listeners, using query selectors, and working with JSON data to create dynamic content were all things I felt confident doing because of the labs. I was able to set up like buttons, audio controls, and modal dialogs with that foundation.
+
+One area I felt less prepared for was responsive design. While the labs introduced flexbox, they did not go into as much detail with CSS Grid or media queries. When I tried to make my layout adjust for smaller screens, I had to figure out how to use properties like auto fit and minmax on my own. Understanding how fixed widths impacted the grid layout also took extra time and research.
+
+  **
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+** If I had more time, I would improve the mobile layout and responsiveness. I would also focus more on accessibility, like making sure users can close modals with the escape key and navigate the playlist cards using only a keyboard.
 
+I also wanted to add a feature where the audio player highlights which song is currently playing. Another idea was to have a bottom music bar that stays fixed while browsing. I think that would make the experience feel more like a real music app. Finally, I would organize my CSS into smaller, more reusable sections to make updates easier later on.  **
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+**
+My demo went mostly as planned. The playlists loaded correctly from the JSON file, the like buttons worked, and the modals opened and closed as expected. I also liked how clean the layout looked on larger screens.
 
-### Open-source libraries used
+One issue I noticed during the demo was that the cards stacked in a single column on smaller screens, which was not what I wanted. I later found out that fixed widths were conflicting with the grid layout and causing this.
 
-- Add any links to open-source libraries used in your project.
+A classmate used a utility-first CSS framework that made their layout very consistent and responsive without writing much custom CSS. That approach looked efficient, and I would like to try something similar next time to save time and avoid layout bugs.
+**
+
 
 ### Shout out
 
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+Shout out to Keith, Lucia, and Alex for helping me keep my code clean and my website appealing to users

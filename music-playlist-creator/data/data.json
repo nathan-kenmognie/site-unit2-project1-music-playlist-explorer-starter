@@ -193,7 +193,7 @@
         "playlist_author":"iHeartRadio",
         "playlist_art":"assets/img/ambient-chill.webp",
         "description":"A collextion of Ambient and Chill tracks to help you relax and unwind.",
-        "likes":10,
+        "likes":"0",
         "songs":[
             {
                 "title":"Weightless",
