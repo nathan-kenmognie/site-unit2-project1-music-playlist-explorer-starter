@@ -399,3 +399,108 @@ footer {
     word-break: break-word;
 }
 
+@media screen and (max-width: 768px) {
+    #playlist-cards {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 10px;
+    }
+
+    .playlist {
+        width: 100%;
+        max-width: 300px; /* Adjust as needed */
+    }
+
+    header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav a {
+        margin-bottom: 10px;
+    }
+
+    #featured-playlist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #featured-playlist-img {
+        width: 100%;
+        height: auto;
+    }
+    .playlist-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .playlist-header img {
+        width: 100%;
+        height: auto;
+    }
+    .playlist-details {
+        width: 100%;
+    }
+    .playlist-songs article {
+        flex-direction: column;
+        align-items: center;
+    }
+    .playlist-songs img {
+        width: 100px; /* Adjust as needed */
+        height: 100px; /* Adjust as needed */
+    }
+    .featured-song {
+        flex-direction: column;
+        align-items: center;
+    }
+    .featured-song img {
+        width: 100px; /* Adjust as needed */
+        height: 100px; /* Adjust as needed */
+    }
+    .featured-song-description {
+        width: 100%; /* Make it responsive */
+        text-align: center; /* Center text for smaller screens */
+    }
+    .likeBtn {
+        font-size: 20px; /* Adjust size for smaller screens */
+        padding: 0 4px; /* Adjust padding for smaller screens */
+    }
+    .shuffleBtn {
+        font-size: 16px; /* Adjust size for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+    audio {
+        width: 100%;
+        max-width: 100%; /* Ensure it doesn't exceed the container */
+    }
+    dialog {
+        width: 90%; /* Make dialog responsive */
+        height: 80%; /* Make dialog responsive */
+    }
+    .like-row {
+        flex-direction: column; /* Stack button and count vertically */
+        align-items: center; /* Center align items */
+    }
+    .like-row button {
+        margin-bottom: 5px; /* Add space between button and count */
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 20px; /* Adjust header font size for smaller screens */
+    }
+    header nav a {
+        font-size: 16px; /* Adjust nav link font size for smaller screens */
+    }
+    .playlist {
+        width: 100%;
+        max-width: 280px; /* Adjust as needed */
+    }
+    .playlist-header img {
+        width: 100%;
+        height: auto;
+    }
+    .playlist-details {
+        width: 100%;
+    }
+}
